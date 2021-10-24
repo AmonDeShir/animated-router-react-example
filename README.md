@@ -1,6 +1,6 @@
 # Animated Router - Example (react)
 
-![logo](https://user-images.githubusercontent.com/13831258/138579149-42405ed8-733a-4f23-a03e-0a896890f3f2.png)
+[![logo](https://user-images.githubusercontent.com/13831258/138579149-42405ed8-733a-4f23-a03e-0a896890f3f2.png)](https://github.com/AmonDeShir/animated-router-react)
 
 Icon made by [smalllikeart](https://www.flaticon.com/authors/smalllikeart) from [www.flaticon.com](https://www.flaticon.com/).
 
