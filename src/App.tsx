@@ -1,3 +1,4 @@
+import gsap from 'gsap';
 import Navigation, { Route } from 'animated-router-react';
 import { useRef } from 'react';
 import { enterDown, enterRight, enterUp, exitDown, exitRight, exitUp } from './animations';
@@ -16,6 +17,14 @@ function App() {
 
       <Route
         path="/"
+        init={(ref) => {
+          gsap
+            .timeline()
+            .set(header.current, { transition: 'none' })
+            .set(header.current, { height: 'calc(var(--background-size) + 50px)' })
+            .set(ref.current, { translateY: '0' })
+            .set(header.current, { transition: 'height 1s cubic-bezier(0.250, 0.460, 0.450, 0.940)' })
+        }}
         component={<Main />}
         enterAnimation={{
           "/log-in": enterUp(header),

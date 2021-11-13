@@ -2274,10 +2274,10 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-animated-router-react@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/animated-router-react/-/animated-router-react-0.0.1.tgz#b287a5461a6c37f4eee6f693d009b18f354e4924"
-  integrity sha512-16SpFmkQYPLGeh9JHDtxreLXFpgXlwL5PMX/0Sk5e++unW+93bXDv5K6gfqDAMWQmmrwruAxtZBRzk9zRWEIMA==
+animated-router-react@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/animated-router-react/-/animated-router-react-0.0.3.tgz#83b79917d9fa24fecacce9026cb6ffac440476ec"
+  integrity sha512-Li24VsJvXCmECGZVX1HqhhjWqhHH6u75GDwRUJ1tI+qySJX8RbVRrL4EL9bYBcwla2oUSZGh/WG8Cuf7WklhHw==
 
 ansi-colors@^3.0.0:
   version "3.2.4"
